@@ -8,13 +8,13 @@ import json
 
 # Tool + Prompt imports
 from prompt_config import system_prompt
-from tools_demo import get_weather_info, search_restaurants, get_restaurant_details
+from tools import get_weather_info, search_restaurants, get_restaurant_details
 
 # Load environment variables
 load_dotenv()
 
 # Tool setup
-TOOLS = [get_weather_info, search_restaurants]
+TOOLS = [get_weather_info, search_restaurants, get_restaurant_details]
 
 # Claude model via LiteLLM
 llm = ChatLiteLLM(

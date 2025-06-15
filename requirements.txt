@@ -2,3 +2,13 @@ flask
 twilio
 python-dotenv
 anthropic
+openai
+requests
+elevenlabs
+openai-whisper
+gradio
+pyttsx3
+langgraph
+langchain_core
+langchain_community
+langchain-litellm
